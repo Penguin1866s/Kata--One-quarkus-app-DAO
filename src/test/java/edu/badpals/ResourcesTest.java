@@ -1,4 +1,4 @@
-package org.pingpong.onequarkusapp;
+
 
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.CoreMatchers.is;
@@ -11,7 +11,6 @@ import jakarta.ws.rs.core.MediaType;
 
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
-import org.pingpong.onequarkusapp.dominio.Orden;
 
 import io.quarkus.test.junit.QuarkusTest;
 import io.restassured.common.mapper.TypeRef;
