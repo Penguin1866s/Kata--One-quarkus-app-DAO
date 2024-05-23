@@ -12,6 +12,7 @@ import jakarta.ws.rs.core.MediaType;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 
+import edu.badpals.dominio.Orden;
 import io.quarkus.test.junit.QuarkusTest;
 import io.restassured.common.mapper.TypeRef;
 import io.restassured.http.ContentType;
